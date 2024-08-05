@@ -1,6 +1,6 @@
-import 'form_validations.dart';
+import 'form_validatorchilar.dart';
 
-class FormValidators {
+class FormValidatorchi {
   static String? email(String? value) {
     return validateEmail(value);
   }
