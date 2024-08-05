@@ -1,5 +1,5 @@
-import 'package:form_validators/form_validators.dart';
-import 'package:form_validators/src/form_validators_base.dart';
+
+import 'package:form_validatorchi/form_validators.dart';
 import 'package:test/test.dart';
 
 void main() {
