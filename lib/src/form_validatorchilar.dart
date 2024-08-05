@@ -1,3 +1,6 @@
+/// Validates that the given [value] is a valid email address.
+///
+/// Returns `null` if the email is valid, otherwise returns an error message.
 String? validateEmail(String? value) {
   if (value == null || value.trim().isEmpty) {
     return "empty";
@@ -12,6 +15,9 @@ String? validateEmail(String? value) {
   return null;
 }
 
+/// Validates that the given [value] is a valid password.
+///
+/// Returns `null` if the password is valid, otherwise returns an error message.
 String? validatePassword(String? value) {
   if (value == null || value.trim().isEmpty) {
     return "empty";
